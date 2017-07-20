@@ -167,15 +167,6 @@ export default class Presentation extends React.Component {
             JSX and Declarative UIs
           </Heading>
         </Slide>
-          <CodeSlide
-            transition={[]}
-            lang="js"
-            code={require('raw-loader!../examples/jsx-code-example')}
-            ranges={[
-              { loc: [0, 3], title: 'JSX and Declarative UIs' },
-              { loc: [4, 10], title: 'Code compiled' },
-            ]}
-          />
           <Slide transition={['fade']} bgColor="primary">
             <Heading size={2} margin="0 auto 100px" caps fit textColor="accent" textFont="primary">
               Key React Concepts
@@ -236,6 +227,15 @@ export default class Presentation extends React.Component {
               </Text>
             </Appear>
           </Slide>
+          <CodeSlide
+            transition={[]}
+            lang="js"
+            code={require('raw-loader!../examples/jsx-code-example')}
+            ranges={[
+              { loc: [0, 3], title: 'JSX and Declarative UIs' },
+              { loc: [4, 10], title: 'Code compiled' },
+            ]}
+          />
       </Deck>
     );
   }
