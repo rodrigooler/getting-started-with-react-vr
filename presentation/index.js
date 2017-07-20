@@ -176,6 +176,66 @@ export default class Presentation extends React.Component {
               { loc: [4, 10], title: 'Code compiled' },
             ]}
           />
+          <Slide transition={['fade']} bgColor="primary">
+            <Heading size={2} margin="0 auto 100px" caps fit textColor="accent" textFont="primary">
+              Key React Concepts
+            </Heading>
+            <Appear>
+              <Text textColor="white" margin="0 auto 25px">
+                - Components;
+              </Text>
+            </Appear>
+            <Appear>
+              <Text textColor="white" margin="0 auto 25px">
+                - Props;
+              </Text>
+            </Appear>
+            <Appear>
+              <Text textColor="white" margin="0 auto 25px">
+                - State;
+              </Text>
+            </Appear>
+            <Appear>
+              <Text textColor="white" margin="0 auto 25px">
+                - Events;
+              </Text>
+            </Appear>
+            <Appear>
+              <Text textColor="white" margin="0 auto 25px">
+                - Layout;
+              </Text>
+            </Appear>
+            <Appear>
+              <Text textColor="white" margin="0 auto 25px">
+                - Style;
+              </Text>
+            </Appear>
+            <Appear>
+              <Text textColor="white" margin="0 auto 25px">
+                - ...;
+              </Text>
+            </Appear>
+          </Slide>
+          <Slide transition={['fade']} bgColor="primary">
+            <Heading size={2} margin="0 auto 100px" caps fit textColor="accent" textFont="primary">
+              React Ecosystem
+            </Heading>
+            <Appear>
+              <Text textColor="white" margin="0 auto 25px">
+                React - the original library, which is used to target the web by creating DOM rendered by the browser.
+              </Text>
+            </Appear>
+            <Appear>
+              <Text textColor="white" margin="0 auto 25px">
+                React Native - targets developing native applications on iOS and Android through the use of native components. React Native builds on top of core parts of React.
+              </Text>
+            </Appear>
+            <Appear>
+              <Text textColor="white" margin="0 auto 25px">
+                React VR - the new library that we are talking about here, which enables developing UIs in VR. React VR builds on top of React Native frameworks.
+              </Text>
+            </Appear>
+          </Slide>
       </Deck>
     );
   }
